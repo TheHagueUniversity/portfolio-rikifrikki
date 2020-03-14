@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Sen&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin:0;
@@ -22,7 +25,7 @@ header::after{
 }
 
 .navbarcontainer{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -79,27 +82,92 @@ nav a:hover::before {
   width: 100%;
 }
 
-.introsection {
-
-}
 
 .introdiv {
-  width: 50%;
-  margin: 180px auto;
+  width: 60%;
+  margin: 160px auto 130px;
   text-align: center;
 }
 
 .introtext {
   font-family: 'Playfair Display', serif;
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 200;
   display: inline-block
 }
 
+.portfoliocontainer div{
+
+}
+
 .portfoliocontainer {
-  
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .item1 {
- 
+  flex:1;
+  background-image: url("1.png");
+  background-color: #cccccc; 
+  height: 250px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item2 {
+  flex:1;
+  background-image: url("1.png");
+  background-color: #cccccc; 
+  height: 250px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item3 {
+  flex:1;
+  background-image: url("1.png");
+  background-color: #cccccc; 
+  height: 250px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item4 {
+  flex: 2;
+  background-image: url("1.png");
+  background-color: #cccccc; 
+  height: 250px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item5 {
+  flex: 1;
+  background-image: url("1.png");
+  background-color: #cccccc; 
+  height: 250px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item6 {
+  flex:1;
+  background-image: url("1.png");
+  background-color: #cccccc; 
+  height: 250px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item7 {
+  flex:2;
+  background-image: url("1.png");
+  background-color: #cccccc; 
+  height: 250px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
