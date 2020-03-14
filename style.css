@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Sen&display=swap');
+
 
 body {
   margin:0;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
 }
 
 header {
@@ -26,7 +27,7 @@ header::after{
 }
 
 .rgbot {
-  font-size:14px;
+  font-size:16px;
   float: left;
   padding-top: 17px;
   padding-bottom: 14px;
@@ -34,7 +35,6 @@ header::after{
 
 nav {
   float: right;
-
 }
 
 nav ul {
@@ -50,11 +50,10 @@ nav li {
   padding-bottom: 14px;
 
   position: relative;
-
 }
 
 nav a {
-  font-size:14px;
+  font-size:16px;
   color: #444;
   text-decoration: none;
 }
@@ -78,4 +77,29 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+.introsection {
+
+}
+
+.introdiv {
+  width: 50%;
+  margin: 180px auto;
+  text-align: center;
+}
+
+.introtext {
+  font-family: 'Playfair Display', serif;
+  font-size: 34px;
+  font-weight: 200;
+  display: inline-block
+}
+
+.portfoliocontainer {
+  
+}
+
+.item1 {
+ 
 }
