@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Sen&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica&display=swap');
+
 
 * {
   box-sizing: border-box;
@@ -8,14 +10,17 @@ body {
   margin:0;
   font-family: 'Sen', sans-serif;
   font-weight: 400;
+  background-color: #fffdfb;
+  color: #332C28;
 }
 
 header {
-  background-color: aquamarine;
+  background-color: #fffdfb;
   position: fixed;
   top: 0; 
   left: 0; 
   right: 0;
+  z-index: 2;
 }
 
 header::after{
@@ -25,15 +30,16 @@ header::after{
 }
 
 .navbarcontainer{
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .rgbot {
-  font-size:16px;
+  font-size:14px;
   float: left;
-  padding-top: 17px;
-  padding-bottom: 14px;
+  padding-top: 20px;
+  padding-bottom: 17px;
+  color: #EF7674;
 }
 
 nav {
@@ -49,27 +55,28 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 50px;
-  padding-top: 17px;
-  padding-bottom: 14px;
+  padding-top: 20px;
+  padding-bottom: 17px;
 
   position: relative;
 }
 
 nav a {
-  font-size:16px;
-  color: #444;
+  font-size:14px;
+  color: #332C28;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: #000;
+  color: #EF7674;
 }
+
 
 nav a::before {
   content: '';
   display: block;
-  height: 3px;
-  background-color: #444;
+  height: 4px;
+  background-color: #EF7674;
 
   position: absolute;
   top:0;
@@ -84,33 +91,22 @@ nav a:hover::before {
 
 
 .introdiv {
-  width: 60%;
-  margin: 160px auto 130px;
+  width: 80%;
+  margin: 160px auto 0px;
   text-align: center;
 }
 
 .introtext {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  font-weight: 200;
+  font-family: 'IM Fell Double Pica', serif;
+  font-size: 36px;
   display: inline-block
-}
-
-.portfoliocontainer div{
-
-}
-
-.portfoliocontainer {
-  display: flex;
-  width: 60%;
-  margin: 0 auto;
 }
 
 .item1 {
   flex:1;
-  background-image: url("1.png");
+  background-image: url("3.png");
   background-color: #cccccc; 
-  height: 250px;
+  height: 350px;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,9 +114,9 @@ nav a:hover::before {
 
 .item2 {
   flex:1;
-  background-image: url("1.png");
+  background-image: url("4.png");
   background-color: #cccccc; 
-  height: 250px;
+  height: 350px;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -128,9 +124,9 @@ nav a:hover::before {
 
 .item3 {
   flex:1;
-  background-image: url("1.png");
+  background-image: url("5.png");
   background-color: #cccccc; 
-  height: 250px;
+  height: 350px;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,35 +135,139 @@ nav a:hover::before {
   flex: 2;
   background-image: url("1.png");
   background-color: #cccccc; 
-  height: 250px;
+  height: 350px;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
 }
 .item5 {
   flex: 1;
-  background-image: url("1.png");
+  background-image: url("2.jpg");
   background-color: #cccccc; 
-  height: 250px;
+  height: 350px;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
 }
 .item6 {
   flex:1;
-  background-image: url("1.png");
-  background-color: #cccccc; 
-  height: 250px;
+  background-image: url("6.png");
+  height: 350px;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
 }
 .item7 {
   flex:2;
-  background-image: url("1.png");
+  background-image: url("7.png");
   background-color: #cccccc; 
-  height: 250px;
+  height: 350px;
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.linecontainer{
+  width:80%;
+  margin:0 auto;
+}
+
+.line1{
+  width: 0px;
+  height: 30px;
+  margin: 10px auto 60px;
+  border: 1px solid #332C28;
+  position: relative;
+  }
+
+.line2{
+  width: 0px;
+  height: 30px;
+  margin: 80px auto 70px;
+  border: 1px solid #332C28;
+  position: relative;
+  }
+
+
+
+  .contactbox {
+    width:80%;
+    margin:0px auto 20px;
+    text-align: center;
+  }
+  .contactme {    
+    display: inline-block
+  }
+  .email {
+    color: #EF7674;
+  }
+  
+  .social-menu {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .social-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+
+.social-menu ul li {
+    display: inline-block;
+    margin: 0px 5px 130px;
+    position:relative;
+
+}
+.social-menu ul li .fa {
+    color: #332C28;
+    font-size: 15px;
+    line-height: 30px;
+    transition: .3s;
+}
+.social-menu ul li .fa:hover {
+    color: #fffdfb;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fffdfb;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+}
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -5px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #EF7674;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #EF7674;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #EF7674;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #EF7674;
+}
+
+@media(min-width: 768px) {
+  .portfoliocontainer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media(max-width: 768px) {
+  .portfoliocontainer {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
