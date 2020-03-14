@@ -270,4 +270,45 @@ nav a:hover::before {
     width: 90%;
     margin: 0 auto;
   }
+  .aboutmewrapper {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}
+
+.aboutmewrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.myphoto {
+  flex: 1;
+  background-image: url("2.jpg");
+  height: 350px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutme {
+  flex: 2;
+  padding: 0px 0px 0px 20px;
+  font-size:16px;
+  color: #332C28;
+}
+
+.aboutme p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.aboutme h1{
+  font-weight: 400;
+  margin: 0;
+}
+
+strong {
+  font-weight: 400;
+  color: #EF7674;
 }
